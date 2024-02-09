@@ -6,13 +6,13 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body{
     color: #fff;
     background-color: black;
+    font-family: 'Lato', sans-serif;
 }
-
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -21,4 +21,16 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
+
+section .container{
+    padding-top: 80px;
+}
+
+.container h1{
+    font-weight: 700;
+}
+
+#presentacion_vchile .row .card{
+    height: 350px;
+}
