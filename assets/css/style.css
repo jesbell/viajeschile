@@ -13,6 +13,8 @@ body{
     background-color: black;
     font-family: 'Lato', sans-serif;
 }
+
+/* Header */
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -23,6 +25,7 @@ body{
     background-size: cover;
 }
 
+/* Contenido de la página */
 section .container{
     padding-top: 80px;
 }
@@ -31,6 +34,18 @@ section .container{
     font-weight: 700;
 }
 
+/* Presentación Viajes Chile */
 #presentacion_vchile .row .card{
-    height: 350px;
+    min-height: 350px;
+}
+
+/* Destacdos Viajes Chile */
+
+#destacados_vchile img{
+    height: 30vh;
+    min-height: 100px;
+}
+
+.card-title{
+    font-family: 'Lato', sans-serif;
 }
