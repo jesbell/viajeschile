@@ -49,3 +49,9 @@ section .container{
 .card-title{
     font-family: 'Lato', sans-serif;
 }
+
+/* Contacto tooltip */
+.custom-tooltip {
+    --bs-tooltip-bg: #fff;
+    --bs-tooltip-color: #000;
+}
