@@ -185,17 +185,18 @@
                 <button type="Enviar" class="btn btn-info" data-bs-toggle="tooltip"
                 data-bs-placement="right"
                 data-bs-custom-class="custom-tooltip"
-                data-bs-title="Presiona para comunicarte con nosotros :D ">Submit</button>
+                data-bs-title="Presiona para comunicarte con nosotros :D ">Enviar</button>
             </form>
         </div>
     </section>
+    <!-- footer de viajes Chile -->
     <footer class="footer bg-info py-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 fw-bold fs-5">
+                <div class="col fw-bold fs-5">
                     <p>VIAJES CHILE</p>
                 </div>
-                <div class="col-md-6 text-end">
+                <div class="col text-end">
                     <a href="#"><i class="fab fa-facebook-f fa-xl text-light m-1"></i></a>
                     <a href="#"><i class="fab fa-instagram fa-xl text-light m-1"></i></a>
                     <a href="#"><i class="fab fa-linkedin fa-xl text-light m-1"></i></a>
@@ -226,6 +227,16 @@
         const tooltipList = [...tooltipTriggerList].map(
           (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
         );
-      </script>
+    </script>
+    <!-- Cambia el color del Nav al hacer scroll -->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".fixed-top");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
 </body>
 </html>

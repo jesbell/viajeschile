@@ -15,6 +15,11 @@ body{
 }
 
 /* Header */
+
+.fixed-top.scrolled {
+    background-color: #141414 !important;
+    transition: background-color 200ms linear;
+}
 .carousel-item {
     height: 100vh;
     min-height: 350px;
