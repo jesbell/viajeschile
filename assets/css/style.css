@@ -51,6 +51,8 @@ section .container{
     min-height: 100px;
 }
 
+.card bg-info
+
 .card-title{
     font-family: 'Lato', sans-serif;
 }
